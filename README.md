@@ -21,9 +21,11 @@
  given [encrypt.py](https://github.com/Esraa22M/Assignment0/blob/master/Assignment02/encrypt.py) which contains
  ## encrypt function
    encrypt in two steps 
+   
       first step
-    
-      	[python]	a, b, c, d = b ^ F(a | F(c ^ F(d)) ^ F(a | c) ^ d), c ^ F(a ^ F(d) ^ (a | d)), d ^ F(a | F(a) ^ a), a ^ 31337
+    '''
+      		a, b, c, d = b ^ F(a | F(c ^ F(d)) ^ F(a | c) ^ d), c ^ F(a ^ F(d) ^ (a | d)), d ^ F(a | F(a) ^ a), a ^ 31337
+          '''
       second step 
     
           		a, b, c, d = c ^ F(d | F(b ^ F(a)) ^ F(d | b) ^ a), b ^ F(d ^ F(a) ^ (d | a)), a ^ F(d | F(d) ^ d), d ^ 1337
