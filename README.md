@@ -23,7 +23,7 @@
    encrypt in two steps 
    
       first step
-    ```python
+    ```python3
 
       		a, b, c, d = b ^ F(a | F(c ^ F(d)) ^ F(a | c) ^ d), c ^ F(a ^ F(d) ^ (a | d)), d ^ F(a | F(a) ^ a), a ^ 31337
           ```
