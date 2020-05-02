@@ -25,7 +25,7 @@
         a = c ^ (F(d | F(d) ^ d))
         b = b ^ (F(d ^ F(a) ^ (d | a)))
         c = tempa ^ (F(d | F(b ^ F(a)) ^ F(d | b) ^ a))
-  ```      
+```       
   * second step decrypting the frist step in encrypt
   ```python
 
@@ -34,7 +34,7 @@
         d = c ^ (F(a | F(a) ^ a))
         c = b ^ (F(a ^ F(d) ^ (a | d)))
         b = tempa ^ (F(a | F(c ^ F(d)) ^ F(a | c) ^ d))
-    ```
+ ```
 
   * repeat the above steps 30 times 
   *  return plaintext and remove  "'"  
