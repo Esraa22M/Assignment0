@@ -7,6 +7,10 @@
    * The Third argument is the input file.
    * The fourth argument is the output file.
    *  The last argument is the the list of encryption keys required for the cipher.
+ ## Prerequisites
+* 1- python3
+* 2-install any IDE support PYTHON
+
    
 
 
