@@ -25,10 +25,9 @@
       first step
 
  
-    ```python3
                  		a, b, c, d = b ^ F(a | F(c ^ F(d)) ^ F(a | c) ^ d), c ^ F(a ^ F(d) ^ (a | d)), d ^ F(a | F(a) ^ a), a ^ 31337
 
-          ```
+          
 
       second step 
     
@@ -36,12 +35,14 @@
      repeat the above steps 30 times
  ## decryption is the reverse of the encryption process
  * first step  decrypting the second step in encrypt
- 
+```python
+
     tempa = a
         d = d ^ 1337
         a = c ^ (F(d | F(d) ^ d))
         b = b ^ (F(d ^ F(a) ^ (d | a)))
         c = tempa ^ (F(d | F(b ^ F(a)) ^ F(d | b) ^ a))
+  ```      
   * second step decrypting the frist step in encrypt
   
      tempa = a
