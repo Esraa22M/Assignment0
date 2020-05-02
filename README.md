@@ -51,7 +51,7 @@
         d = c ^ (F(a | F(a) ^ a))
         c = b ^ (F(a ^ F(d) ^ (a | d)))
         b = tempa ^ (F(a | F(c ^ F(d)) ^ F(a | c) ^ d))
-    ```
+  ```
 
   * repeat the above steps 30 times 
   *  return plaintext and remove  "'"  
