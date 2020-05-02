@@ -10,9 +10,11 @@
  ## Prerequisites
 * 1- python3
 * 2-install any IDE support PYTHON
+## TO run the code  from terminal  type  s  for shift-cipher  and type a for affine and type v for vigenere
+## type e for enc operation and d for dec operation 
+## Examples calls from terminal:
+ ◦ ciphers.py s e input.text output.text a   
 
-   
 
 
-*
    
