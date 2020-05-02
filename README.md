@@ -55,7 +55,7 @@
 
   * repeat the above steps 30 times 
   *  return plaintext and remove  "'"  
-  *  read flag.enc  the decrypt it and then display the result after drop [\#] sumbols
+  *  read flag.enc  then decrypt it and then display the result after drop [#] sumbols
   * submit the code 
   
 
